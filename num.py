@@ -13,7 +13,7 @@ def main():
         print ("{}: {} {} {}".format(i, square(i), triangle(i), cube(i)))
 
     print ("Primes")
-    prime_list = primes(1000)
+    prime_list = primes(10)
     for p in prime_list[-10:]:
         print (p)
     print ("Is 999981 prime? {}".format(is_prime(999981)))

@@ -16,9 +16,12 @@ class TestKatas(unittest.TestCase):
         self.assertEqual(triangle(4), 10)
 
     def test_cube(self):    
-        self.assertEqual(cube(3), 18)
+        self.assertEqual(cube(3), 27)
 
-    def test_cube(self):    
+    def test_primes(self):    
+        self.assertEqual(primes(10), [2,3,5,7])
+
+    def test_is_prime(self):    
         self.assertEqual(is_prime(999981), False)
         self.assertEqual(is_prime(999983), True)
 

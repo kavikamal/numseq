@@ -5,7 +5,7 @@ from math import sqrt
 
 def primes(n):
     """primes function returns a list of all primes less than n"""
-    return [i for i in range(1, n+1) if i % 2 != 0]
+    return [i for i in range(1, n+1) if is_prime(i)]
 
 
 def is_prime(m):
