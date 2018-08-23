@@ -19,7 +19,8 @@ class TestKatas(unittest.TestCase):
         self.assertEqual(cube(3), 18)
 
     def test_cube(self):    
-        self.assertEqual(is_prime(999981), True)
+        self.assertEqual(is_prime(999981), False)
+        self.assertEqual(is_prime(999983), True)
 
 
 if __name__ == '__main__':
